@@ -22,5 +22,5 @@ export RACER_CMD=$CARGOBIN/racer
 
 #golang
 export GOPATH=$HOME/gopath
-
+export GO15VENDOREXPERIMENT=1
 export PATH=$CARGOBIN:$GOPATH/bin:$PATH
